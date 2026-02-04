@@ -1,5 +1,7 @@
 import Cadova
 
-await Model("model") {
-    Box(10)
+await Project(packageRelative: "Models") {
+    await Model("model") {
+        Box(10)
+    }
 }
