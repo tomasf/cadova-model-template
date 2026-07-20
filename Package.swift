@@ -5,7 +5,7 @@ let package = Package(
     name: "model",
     platforms: [.macOS(.v14)],
     dependencies: [
-        .package(url: "https://github.com/tomasf/Cadova.git", .upToNextMinor(from: "0.7.0")),
+        .package(url: "https://github.com/tomasf/Cadova.git", .upToNextMinor(from: "0.8.0")),
     ],
     targets: [
         .executableTarget(
