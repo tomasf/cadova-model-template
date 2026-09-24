@@ -1,6 +1,6 @@
 import Cadova
 
-await Project(packageRelative: "Models") {
+await Project {
     await Model("model") {
         Box(10)
     }
